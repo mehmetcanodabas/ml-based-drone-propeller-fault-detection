@@ -1,0 +1,11 @@
+feature,decision,justification
+rms,Rejected,Amplitude-sensitive and strongly correlated with peak-to-peak. Removing it alone did not resolve the SP1 healthy false alarm.
+peak_to_peak,Rejected,Amplitude-sensitive and strongly correlated with RMS.
+dominant_frequency_hz,Rejected,Full-spectrum harmonic switching caused misleading differences among SP1 healthy repeats.
+bandpower_5_100,Rejected,Not retained after exploratory comparisons.
+bandpower_100_500,Rejected,Not retained after exploratory comparisons.
+bandpower_500_1500,Rejected,Not retained after exploratory comparisons.
+crest_factor,Selected,Represents peak amplitude relative to RMS.
+kurtosis,Selected,Characterizes the distribution and impulsiveness of vibration amplitudes.
+low_peak_frequency_hz,Selected,Captures spectral peaks within speed-specific frequency ranges.
+autocorrelation_peak,Selected,Represents periodic structure in vibration signals and is included in the final model.

@@ -1,0 +1,58 @@
+# Ignore everything by default
+*
+
+# Allow project directories
+!*/
+
+# Python source files
+!*.py
+
+# Project dependencies
+!requirements.txt
+
+# Documentation
+!*.md
+
+# Git configuration
+!.gitignore
+!.gitattributes
+
+# Project result images
+!docs/results/*.png
+!docs/results/*.jpg
+!docs/results/*.jpeg
+
+# Project result tables
+!docs/results/*.csv
+
+# Ignore raw dataset
+DronePropB Ground Testing Dataset/
+
+# Ignore generated feature datasets
+model_training/*.csv
+results/*.csv
+
+# Ignore trained models
+*.joblib
+*.pkl
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore local development files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore secrets
+.env
+.env.*
