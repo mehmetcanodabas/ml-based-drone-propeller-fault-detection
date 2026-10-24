@@ -36,13 +36,13 @@ A Gaussian SVM classifier was developed using combined measurements from three o
 ### Project Files
 
 `extract_features.py`: Extracts vibration features from the raw MATLAB recordings.
-- `visualize_features.py`: Generates feature analysis and justification figures.
-- `train_evaluate.py`: Trains and evaluates the Gaussian SVM using recording-wise cross-validation.
-- `model_training/features.csv`: Generated feature dataset used for model training.
-- `model_training/gaussian_svm.joblib`: Trained model saved for future use.
-- `results/all_window_features.csv`: Generated feature dataset for exploratory analysis.
-- `docs/results/`: Confusion matrix, feature analysis figures, and evaluation tables.
-- `requirements.txt`: Python dependencies.
+`visualize_features.py`: Generates feature analysis and justification figures.
+`train_evaluate.py`: Trains and evaluates the Gaussian SVM using recording-wise cross-validation.
+`model_training/features.csv`: Generated feature dataset used for model training.
+`model_training/gaussian_svm.joblib`: Trained model saved for future use.
+`results/all_window_features.csv`: Generated feature dataset for exploratory analysis.
+`docs/results/`: Confusion matrix, feature analysis figures, and evaluation tables.
+`requirements.txt`: Python dependencies.
 
 **Keywords:** Drone Propeller Fault Detection, Vibration Analysis, Signal Processing, Feature Engineering, Machine Learning, Gaussian SVM, Support Vector Machine, Fault Classification, Condition Monitoring, Autocorrelation, Spectral Analysis, Python.
 
