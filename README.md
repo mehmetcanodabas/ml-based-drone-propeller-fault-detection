@@ -35,7 +35,7 @@ A Gaussian SVM classifier was developed using combined measurements from three o
 
 ### Project Files
 
-- `extract_features.py`: Extracts vibration features from the raw MATLAB recordings.
+`extract_features.py`: Extracts vibration features from the raw MATLAB recordings.
 - `visualize_features.py`: Generates feature analysis and justification figures.
 - `train_evaluate.py`: Trains and evaluates the Gaussian SVM using recording-wise cross-validation.
 - `model_training/features.csv`: Generated feature dataset used for model training.
