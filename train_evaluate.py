@@ -446,7 +446,7 @@ def main():
 
     print("=" * 65)
     print("DRONE PROPELLER FAULT DETECTION")
-    print("SINGLE GAUSSIAN SVM — ALL SPEEDS")
+    print("GAUSSIAN SVM — ALL SPEEDS")
     print("=" * 65)
 
     RESULTS_DIR.mkdir(
