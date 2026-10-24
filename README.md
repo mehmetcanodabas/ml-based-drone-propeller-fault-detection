@@ -16,7 +16,7 @@ A Gaussian SVM classifier was developed using combined measurements from three o
 - Extracted 1,080 non-overlapping 2-second windows and eight selected features.
 - Analyzed feature correlations, healthy-recording variability, and healthy–faulty separability.
 - Selected Crest Factor, Kurtosis, Low Peak Frequency, and Autocorrelation Peak from each vibration channel.
-- Implemented a single Gaussian SVM combining SP1, SP2, and SP3 data.
+- Implemented a Gaussian SVM combining SP1, SP2, and SP3 data.
 - Applied recording-wise 3-fold cross-validation to prevent windows from the same recording appearing in both training and test sets.
 - Achieved **100% recording-level accuracy (36/36)** with zero false positives and zero false negatives.
 - Achieved **95.46% window-level accuracy (1,031/1,080)** and **95.12% balanced accuracy**.
