@@ -8,7 +8,7 @@ Vibration signals from two accelerometer channels (C1 and C2) were segmented int
 
 Feature engineering and exploratory analysis were conducted to evaluate healthy-recording consistency, fault separability, and feature redundancy. A compact feature set was selected based on signal characteristics and experimental model comparisons.
 
-A single Gaussian SVM classifier was developed using combined measurements from three operating speeds (SP1, SP2, and SP3). Model performance was evaluated using 3-fold recording-wise cross-validation, ensuring that windows from the same physical recording were not shared between training and testing.
+A Gaussian SVM classifier was developed using combined measurements from three operating speeds (SP1, SP2, and SP3). Model performance was evaluated using 3-fold recording-wise cross-validation, ensuring that windows from the same physical recording were not shared between training and testing.
 
 ### Key Results
 
