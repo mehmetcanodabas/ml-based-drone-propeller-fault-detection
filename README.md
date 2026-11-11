@@ -51,8 +51,6 @@ A Gaussian SVM classifier was developed using combined measurements from three o
 
 `requirements.txt`: Python dependencies.
 
-**Keywords:** Drone Propeller Fault Detection, Vibration Analysis, Signal Processing, Feature Engineering, Machine Learning, Gaussian SVM, Support Vector Machine, Fault Classification, Condition Monitoring, Autocorrelation, Spectral Analysis, Python.
-
-**Development Environment:** Python 3.11.7, Visual Studio Code, NumPy, Pandas, SciPy, Scikit-learn, Matplotlib.
+**Keywords:** Drone Propeller Fault Detection, Vibration Analysis, Signal Processing, Feature Engineering, Machine Learning, Gaussian SVM, Support Vector Machine, Fault Classification, Condition Monitoring, Autocorrelation, Spectral Analysis, NumPy, Pandas, SciPy, Scikit-learn, Matplotlib, Python.
 
 **Data Source:** DronePropB Ground Testing Dataset, C1 and C2 vibration measurements across SP1, SP2, and SP3 operating conditions.
